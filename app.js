@@ -42,7 +42,7 @@ anime.timeline({ loop: true })
         opacity: 1,
         duration: 3000,
         easing: "linear",
-        delay: anime.stagger(60)
+        delay: anime.stagger(50)
     }).add({
         targets: '.text .letter',
         translateX: function () {
